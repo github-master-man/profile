@@ -1,0 +1,80 @@
+/* Body */
+body {
+  background-color:aquamarine;
+  font-family: Arial, sans-serif;
+  color: red;
+  font-size: medium;
+  line-height: normal;
+  margin:10px;
+  padding: 110px;
+  text-align: center;
+  border: 10cqh;
+  box-shadow: inset;
+}
+
+/* Headers */
+h1, h2, h3 {
+  color: blanchedalmond;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 2.5;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+
+/* Links */
+a {
+  color: yellowgreen;
+  text-decoration: dotted;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  width: 700px;
+  margin: auto;
+  background-color:black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.container-blue {
+  background-color:brown;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
